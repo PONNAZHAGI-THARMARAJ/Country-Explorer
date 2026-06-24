@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header,
+.footer {
+  background: rgb(110, 133, 30);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 10px;
+}
+
+.meal-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.meal-card {
+  width: 200px;
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100%;
+}
